@@ -1,3 +1,154 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
 footer{
     background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
+.title-page .title-content .title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.title-page .title-content .title-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+}
+.title-page .title-content .title-button #button1{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 5px;
+    border-radius: 8px;
+    border-color: #3882f6;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.header, .title-page{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .logo{
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: bolder;
+
+}
+
+
+.header .nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+.header .nav-bar div{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    color: white;
+}
+
+.title-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px;
+}
+
+img {
+    width: auto;
+    height: 250px;
+}
+.information .information-boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    gap: 30px;
+    justify-content: center;
+
+}
+.information .information-boxes div{
+    border: 3px solid #3882f6;
+    padding: 100px;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 10px;
+    
+    
+}
+
+.information .information-text p{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.information{
+    padding: 100px;
+}
+
+
+.qoute-text{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 100px;
+    font-style: italic;
+    font-weight: 300;
+    
+
+}
+.qoute-text span{
+    float: right;
+    font-style: normal;
+}
+
+
+.sign-up-banner{
+    background-color: #3882f6;
+    margin: 80px auto;
+    width: 60%;
+    height: 140px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+
+}
+.sign-up-banner #button{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 7px;
+    border-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    border-style: solid;
+}
+
+.sign-up-banner .sign-up-banner-text{
+    color: white;
+    font-weight: 300;
+}
+.sign-up-banner .sign-up-banner-text span{
+    font-weight: bold;
+    font-size: 18px;
 }
