@@ -1,1 +1,2 @@
-# Flexbox website excercise
+# Website cloned from the odin project
+
