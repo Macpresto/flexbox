@@ -1,2 +1,1 @@
-# Website cloned from the odin project
-
+# Website design example using flexbox
